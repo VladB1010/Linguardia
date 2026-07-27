@@ -1,0 +1,4 @@
+[gd_resource type="FontVariation" format=3 uid="uid://djtwnm248pctj"]
+
+[resource]
+fallbacks = Array[Font]([null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null])

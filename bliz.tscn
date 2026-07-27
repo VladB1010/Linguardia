@@ -1,0 +1,241 @@
+[gd_scene format=3 uid="uid://c3ehyk1nspr5l"]
+
+[ext_resource type="Texture2D" path="res://Asset/dice.png" id="1_hc7em"]
+[ext_resource type="Texture2D" path="res://Asset/dice2.png" id="2_xcws8"]
+[ext_resource type="Texture2D" path="res://Asset/texture1.png" id="3_8u501"]
+[ext_resource type="Script" path="res://shingen_special.gd" id="4_shing"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ap0ug"]
+atlas = ExtResource("1_hc7em")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1o65"]
+atlas = ExtResource("1_hc7em")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_546bv"]
+atlas = ExtResource("1_hc7em")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8y5jw"]
+atlas = ExtResource("1_hc7em")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qbu1"]
+atlas = ExtResource("1_hc7em")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wywie"]
+atlas = ExtResource("1_hc7em")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ye036"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(0, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v002m"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(16, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x0hm0"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(32, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gkbqi"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(48, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hsqq8"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(64, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_poliw"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(80, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxmao"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(96, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n7ktc"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(112, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l2gri"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(128, 0, 16, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmflg"]
+atlas = ExtResource("2_xcws8")
+region = Rect2(144, 0, 16, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n6uug"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ap0ug")
+}],
+"loop": 1,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1o65")
+}],
+"loop": 1,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_546bv")
+}],
+"loop": 1,
+"name": &"3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8y5jw")
+}],
+"loop": 1,
+"name": &"4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qbu1")
+}],
+"loop": 1,
+"name": &"5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wywie")
+}],
+"loop": 1,
+"name": &"6",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ye036")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v002m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x0hm0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gkbqi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hsqq8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_poliw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxmao")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n7ktc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l2gri")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmflg")
+}],
+"loop": 1,
+"name": &"throw",
+"speed": 9.0
+}]
+
+[node name="Bliz" type="Node2D" unique_id=729922359]
+script = ExtResource("4_shing")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=878910552]
+position = Vector2(537.56995, 477.64063)
+scale = Vector2(8.196247, 7.8300805)
+sprite_frames = SubResource("SpriteFrames_n6uug")
+animation = &"6"
+frame_progress = 0.6779716
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=496071366]
+position = Vector2(745.94495, 478.2881)
+scale = Vector2(7.930497, 7.9025245)
+sprite_frames = SubResource("SpriteFrames_n6uug")
+animation = &"6"
+frame_progress = 0.8759716
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="." unique_id=1443652024]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 905.0
+offset_top = 157.0
+offset_right = 1109.0
+offset_bottom = 457.0
+grow_horizontal = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="VBoxContainer2" unique_id=351543240]
+custom_minimum_size = Vector2(40, 250)
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("3_8u501")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+metadata/_edit_lock_ = true
+
+[node name="Label" type="Label" parent="VBoxContainer2/NinePatchRect" unique_id=1759839607]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Word"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1747364633]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 164.0
+offset_top = 157.0
+offset_right = 368.0
+offset_bottom = 457.0
+grow_horizontal = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="VBoxContainer" unique_id=2065735146]
+custom_minimum_size = Vector2(40, 250)
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("3_8u501")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+metadata/_edit_lock_ = true
+
+[node name="Label" type="Label" parent="VBoxContainer/NinePatchRect" unique_id=449421513]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Word"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Timer" type="Timer" parent="." unique_id=1336477697]

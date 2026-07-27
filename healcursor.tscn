@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://lugnoxaytiwy"]
+
+[ext_resource type="Texture2D" uid="uid://cqor020m423h0" path="res://heal_cursor.tres" id="1_qdnjj"]
+[ext_resource type="Script" path="res://heal_cursor.gd" id="2_qdnjj"]
+
+[node name="HealCursor" type="TextureRect" unique_id=966691516]
+custom_minimum_size = Vector2(100, 100)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1180.0
+offset_bottom = -620.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_qdnjj")
+script = ExtResource("2_qdnjj")
+
+[node name="FrameAdvance" type="Timer" parent="." unique_id=710561943]
+wait_time = 0.09
+autostart = true
+
+[connection signal="timeout" from="FrameAdvance" to="." method="_on_frame_advance_timeout"]

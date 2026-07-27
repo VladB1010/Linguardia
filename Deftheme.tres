@@ -1,0 +1,45 @@
+[gd_resource type="Theme" format=3 uid="uid://cusfe3un3i77t"]
+
+[ext_resource type="FontFile" uid="uid://cy5gagw3pydlo" path="res://assets/upheavtt.ttf" id="1_yq7g0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dvl05"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yq7g0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_s2cyy"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1bjm1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dvl05"]
+bg_color = Color(1, 0.5527616, 0.4871741, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yq7g0"]
+content_margin_left = 13.0
+bg_color = Color(0.9999891, 0.24434078, 0.19626334, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[resource]
+default_font = ExtResource("1_yq7g0")
+default_font_size = 30
+Button/font_sizes/font_size = 30
+Button/styles/disabled = null
+Button/styles/focus = SubResource("StyleBoxEmpty_dvl05")
+Button/styles/hover = SubResource("StyleBoxEmpty_yq7g0")
+Button/styles/normal = SubResource("StyleBoxEmpty_s2cyy")
+Button/styles/pressed = SubResource("StyleBoxEmpty_1bjm1")
+HBoxContainer/constants/separation = 38
+MarginContainer/constants/margin_bottom = 4
+MarginContainer/constants/margin_left = 100
+MarginContainer/constants/margin_right = 40
+MarginContainer/constants/margin_top = 4
+ProgressBar/colors/font_color = Color(0.5878112, 0.0629704, 0.07530532, 1)
+ProgressBar/styles/background = SubResource("StyleBoxFlat_dvl05")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_yq7g0")
+VBoxContainer/constants/separation = 9
