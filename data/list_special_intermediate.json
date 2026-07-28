@@ -1,0 +1,106 @@
+{
+  "special": {
+    "en": [
+      {
+        "id": 1,
+        "sentence": "The forest remembers every step taken beneath its ancient trees."
+      },
+      {
+        "id": 2,
+        "sentence": "A warrior without wisdom is merely a weapon waiting to break."
+      },
+      {
+        "id": 3,
+        "sentence": "Even the strongest shield cannot stop the passage of time."
+      },
+      {
+        "id": 4,
+        "sentence": "Those who fear the dark have never learned to read the stars."
+      },
+      {
+        "id": 5,
+        "sentence": "The river does not ask permission before it carves the stone."
+      },
+      {
+        "id": 6,
+        "sentence": "A promise broken in silence still echoes through the years."
+      },
+      {
+        "id": 7,
+        "sentence": "Courage is not the absence of fear but the mastery of it."
+      },
+      {
+        "id": 8,
+        "sentence": "The old gods sleep, but their shadows still walk among us."
+      }
+    ],
+    "de": [
+      {
+        "id": 1,
+        "sentence": "Der Wald erinnert sich an jeden Schritt unter seinen alten Bäumen."
+      },
+      {
+        "id": 2,
+        "sentence": "Ein Krieger ohne Weisheit ist nur eine Waffe, die darauf wartet zu zerbrechen."
+      },
+      {
+        "id": 3,
+        "sentence": "Selbst der stärkste Schild kann den Lauf der Zeit nicht aufhalten."
+      },
+      {
+        "id": 4,
+        "sentence": "Wer die Dunkelheit fürchtet, hat nie gelernt, die Sterne zu lesen."
+      },
+      {
+        "id": 5,
+        "sentence": "Der Fluss bittet nicht um Erlaubnis, bevor er den Stein formt."
+      },
+      {
+        "id": 6,
+        "sentence": "Ein im Schweigen gebrochenes Versprechen hallt noch Jahre nach."
+      },
+      {
+        "id": 7,
+        "sentence": "Mut ist nicht die Abwesenheit von Angst, sondern ihre Beherrschung."
+      },
+      {
+        "id": 8,
+        "sentence": "Die alten Götter schlafen, doch ihre Schatten wandeln noch unter uns."
+      }
+    ],
+    "ru": [
+      {
+        "id": 1,
+        "sentence": "Лес помнит каждый шаг под своими древними деревьями."
+      },
+      {
+        "id": 2,
+        "sentence": "Воин без мудрости — лишь оружие, ожидающее, когда оно сломается."
+      },
+      {
+        "id": 3,
+        "sentence": "Даже самый прочный щит не может остановить ход времени."
+      },
+      {
+        "id": 4,
+        "sentence": "Тот, кто боится тьмы, никогда не учился читать звёзды."
+      },
+      {
+        "id": 5,
+        "sentence": "Река не спрашивает разрешения, прежде чем высечь камень."
+      },
+      {
+        "id": 6,
+        "sentence": "Обещание, нарушенное в тишине, всё ещё отзывается эхом сквозь годы."
+      },
+      {
+        "id": 7,
+        "sentence": "Храбрость — это не отсутствие страха, а власть над ним."
+      },
+      {
+        "id": 8,
+        "sentence": "Древние боги спят, но их тени всё ещё бродят среди нас."
+      }
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "defend": {
+	"en": [
+	  {
+		"id": 1,
+		"word": "umbra",
+		"correct": "shadow",
+		"acceptable": [
+		  "shadow",
+          "the shadow"
+		]
+	  },
+	  {
+		"id": 2,
+		"word": "suflet",
+		"correct": "soul",
+		"acceptable": [
+		  "soul",
+          "the soul"
+		]
+	  },
+	  {
+		"id": 3,
+		"word": "vis",
+		"correct": "dream",
+		"acceptable": [
+		  "dream",
+          "the dream"
+		]
+	  },
+	  {
+		"id": 4,
+		"word": "destin",
+		"correct": "destiny",
+		"acceptable": [
+		  "destiny",
+          "the destiny"
+		]
+	  },
+	  {
+		"id": 5,
+		"word": "taina",
+		"correct": "mystery",
+		"acceptable": [
+		  "mystery",
+          "the mystery"
+		]
+	  },
+	  {
+		"id": 6,
+		"word": "blestem",
+		"correct": "curse",
+		"acceptable": [
+		  "curse",
+          "the curse"
+		]
+	  },
+	  {
+		"id": 7,
+		"word": "legenda",
+		"correct": "legend",
+		"acceptable": [
+		  "legend",
+          "the legend"
+		]
+	  },
+	  {
+		"id": 8,
+		"word": "eres",
+		"correct": "superstition",
+		"acceptable": [
+		  "superstition",
+          "the superstition"
+		]
+	  },
+	  {
+		"id": 9,
+		"word": "descantec",
+		"correct": "incantation",
+		"acceptable": [
+		  "incantation",
+          "the incantation"
+		]
+	  },
+	  {
+		"id": 10,
+		"word": "profetie",
+		"correct": "prophecy",
+		"acceptable": [
+		  "prophecy",
+          "the prophecy"
+		]
+	  },
+	  {
+		"id": 11,
+		"word": "jertfa",
+		"correct": "sacrifice",
+		"acceptable": [
+		  "sacrifice",
+          "the sacrifice"
+		]
+	  },
+	  {
+		"id": 12,
+		"word": "abis",
+		"correct": "abyss",
+		"acceptable": [
+		  "abyss",
+          "the abyss"
+		]
+	  },
+	  {
+		"id": 13,
+		"word": "eternitate",
+		"correct": "eternity",
+		"acceptable": [
+		  "eternity",
+          "the eternity"
+		]
+	  },
+	  {
+		"id": 14,
+		"word": "naluca",
+		"correct": "ghost",
+		"acceptable": [
+		  "ghost",
+          "the ghost"
+		]
+	  },
+	  {
+		"id": 15,
+		"word": "vraja",
+		"correct": "spell",
+		"acceptable": [
+		  "spell",
+          "the spell"
+		]
+	  }
+	],
+	"de": [
+	  {
+		"id": 1,
+		"word": "Schatten",
+		"correct": "umbra",
+		"acceptable": [
+          "umbra"
+		]
+	  },
+	  {
+		"id": 2,
+		"word": "Seele",
+		"correct": "suflet",
+		"acceptable": [
+          "suflet"
+		]
+	  },
+	  {
+		"id": 3,
+		"word": "Traum",
+		"correct": "vis",
+		"acceptable": [
+          "vis"
+		]
+	  },
+	  {
+		"id": 4,
+		"word": "Schicksal",
+		"correct": "destin",
+		"acceptable": [
+          "destin"
+		]
+	  },
+	  {
+		"id": 5,
+		"word": "Geheimnis",
+		"correct": "taina",
+		"acceptable": [
+          "taina"
+		]
+	  },
+	  {
+		"id": 6,
+		"word": "Fluch",
+		"correct": "blestem",
+		"acceptable": [
+          "blestem"
+		]
+	  },
+	  {
+		"id": 7,
+		"word": "Legende",
+		"correct": "legenda",
+		"acceptable": [
+          "legenda"
+		]
+	  },
+	  {
+		"id": 8,
+		"word": "Aberglaube",
+		"correct": "eres",
+		"acceptable": [
+          "eres"
+		]
+	  },
+	  {
+		"id": 9,
+		"word": "Zauberspruch",
+		"correct": "descantec",
+		"acceptable": [
+          "descantec"
+		]
+	  },
+	  {
+		"id": 10,
+		"word": "Prophezeiung",
+		"correct": "profetie",
+		"acceptable": [
+          "profetie"
+		]
+	  },
+	  {
+		"id": 11,
+		"word": "Opfer",
+		"correct": "jertfa",
+		"acceptable": [
+          "jertfa"
+		]
+	  },
+	  {
+		"id": 12,
+		"word": "Abgrund",
+		"correct": "abis",
+		"acceptable": [
+          "abis"
+		]
+	  },
+	  {
+		"id": 13,
+		"word": "Ewigkeit",
+		"correct": "eternitate",
+		"acceptable": [
+          "eternitate"
+		]
+	  },
+	  {
+		"id": 14,
+		"word": "Gespenst",
+		"correct": "naluca",
+		"acceptable": [
+          "naluca"
+		]
+	  },
+	  {
+		"id": 15,
+		"word": "Zauber",
+		"correct": "vraja",
+		"acceptable": [
+          "vraja"
+		]
+	  }
+	],
+	"ru": [
+	  {
+		"id": 1,
+		"word": "тень",
+		"correct": "umbra",
+		"acceptable": [
+          "umbra"
+		]
+	  },
+	  {
+		"id": 2,
+		"word": "душа",
+		"correct": "suflet",
+		"acceptable": [
+          "suflet"
+		]
+	  },
+	  {
+		"id": 3,
+		"word": "мечта",
+		"correct": "vis",
+		"acceptable": [
+          "vis"
+		]
+	  },
+	  {
+		"id": 4,
+		"word": "судьба",
+		"correct": "destin",
+		"acceptable": [
+          "destin"
+		]
+	  },
+	  {
+		"id": 5,
+		"word": "тайна",
+		"correct": "taina",
+		"acceptable": [
+          "taina"
+		]
+	  },
+	  {
+		"id": 6,
+		"word": "проклятие",
+		"correct": "blestem",
+		"acceptable": [
+          "blestem"
+		]
+	  },
+	  {
+		"id": 7,
+		"word": "легенда",
+		"correct": "legenda",
+		"acceptable": [
+          "legenda"
+		]
+	  },
+	  {
+		"id": 8,
+		"word": "суеверие",
+		"correct": "eres",
+		"acceptable": [
+          "eres"
+		]
+	  },
+	  {
+		"id": 9,
+		"word": "заклинание",
+		"correct": "descantec",
+		"acceptable": [
+          "descantec"
+		]
+	  },
+	  {
+		"id": 10,
+		"word": "пророчество",
+		"correct": "profetie",
+		"acceptable": [
+          "profetie"
+		]
+	  },
+	  {
+		"id": 11,
+		"word": "жертва",
+		"correct": "jertfa",
+		"acceptable": [
+          "jertfa"
+		]
+	  },
+	  {
+		"id": 12,
+		"word": "бездна",
+		"correct": "abis",
+		"acceptable": [
+          "abis"
+		]
+	  },
+	  {
+		"id": 13,
+		"word": "вечность",
+		"correct": "eternitate",
+		"acceptable": [
+          "eternitate"
+		]
+	  },
+	  {
+		"id": 14,
+		"word": "призрак",
+		"correct": "naluca",
+		"acceptable": [
+		  "naluca" , "fantoma" , "fnatoma"
+		]
+	  },
+	  {
+		"id": 15,
+		"word": "чары",
+		"correct": "vraja",
+		"acceptable": [
+		  "vraja","magie" , "vrajeala" , "vraje" , "vraj", "vrjal", "magic"
+		]
+	  }
+	]
+  }
+}

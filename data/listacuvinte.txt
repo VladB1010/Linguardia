@@ -1,0 +1,63 @@
+masă - table
+casă - house
+soare - sun
+lună - moon
+stea - star
+cer - sky
+apă - water
+foc - fire
+pământ - earth
+vânt - wind
+copac - tree
+floare - flower
+iarbă - grass
+munte - mountain
+râu - river
+mare - sea
+lac - lake
+plajă - beach
+drum - road
+pod - bridge
+oraș - city
+școală - school
+carte - book
+caiet - notebook
+creion - pencil
+stilou - pen
+profesor - teacher
+elev - student
+clasă - classroom
+fereastră - window
+ușă - door
+scaun - chair
+pat - bed
+cameră - room
+bucătărie - kitchen
+familie - family
+mamă - mother
+tată - father
+frate - brother
+soră - sister
+copil - child
+prieten - friend
+om - person
+femeie - woman
+bărbat - man
+câine - dog
+pisică - cat
+pasăre - bird
+pește - fish
+cal - horse
+vacă - cow
+
+
+the golden sunlight dances softly across the quiet morning fields.
+a gentle breeze carries whispers through the tall green grass.
+small birds awaken singing melodies above the sleeping valley.
+the distant mountains watch silently beneath the endless blue sky.
+bright flowers sway together, painting colors across the countryside.
+a lonely river glitters peacefully beside the ancient forest.
+the day unfolds slowly, wrapped in warmth and quiet wonder.
+dreams drift gently forward like clouds across the horizon.
+every moment shines briefly before fading into treasured memories.
+the evening arrives softly, embracing the world with calm.

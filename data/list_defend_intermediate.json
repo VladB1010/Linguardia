@@ -1,0 +1,385 @@
+{
+  "defend": {
+    "en": [
+      {
+        "id": 1,
+        "word": "stea",
+        "correct": "star",
+        "acceptable": [
+          "star",
+          "the star"
+        ]
+      },
+      {
+        "id": 2,
+        "word": "luna",
+        "correct": "moon",
+        "acceptable": [
+          "moon",
+          "the moon"
+        ]
+      },
+      {
+        "id": 3,
+        "word": "fluture",
+        "correct": "butterfly",
+        "acceptable": [
+          "butterfly",
+          "the butterfly"
+        ]
+      },
+      {
+        "id": 4,
+        "word": "pasare",
+        "correct": "bird",
+        "acceptable": [
+          "bird",
+          "the bird"
+        ]
+      },
+      {
+        "id": 5,
+        "word": "floare",
+        "correct": "flower",
+        "acceptable": [
+          "flower",
+          "the flower"
+        ]
+      },
+      {
+        "id": 6,
+        "word": "copac",
+        "correct": "tree",
+        "acceptable": [
+          "tree",
+          "the tree"
+        ]
+      },
+      {
+        "id": 7,
+        "word": "rau",
+        "correct": "river",
+        "acceptable": [
+          "river",
+          "the river"
+        ]
+      },
+      {
+        "id": 8,
+        "word": "camp",
+        "correct": "field",
+        "acceptable": [
+          "field",
+          "the field"
+        ]
+      },
+      {
+        "id": 9,
+        "word": "drum",
+        "correct": "road",
+        "acceptable": [
+          "road",
+          "the road"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "pod",
+        "correct": "bridge",
+        "acceptable": [
+          "bridge",
+          "the bridge"
+        ]
+      },
+      {
+        "id": 11,
+        "word": "zid",
+        "correct": "wall",
+        "acceptable": [
+          "wall",
+          "the wall"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "poarta",
+        "correct": "gate",
+        "acceptable": [
+          "gate",
+          "the gate"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "turn",
+        "correct": "tower",
+        "acceptable": [
+          "tower",
+          "the tower"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "clopot",
+        "correct": "bell",
+        "acceptable": [
+          "bell",
+          "the bell"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "foc",
+        "correct": "fire",
+        "acceptable": [
+          "fire",
+          "the fire"
+        ]
+      }
+    ],
+    "de": [
+      {
+        "id": 1,
+        "word": "Stern",
+        "correct": "stea",
+        "acceptable": [
+          "stea"
+        ]
+      },
+      {
+        "id": 2,
+        "word": "Mond",
+        "correct": "luna",
+        "acceptable": [
+          "luna"
+        ]
+      },
+      {
+        "id": 3,
+        "word": "Schmetterling",
+        "correct": "fluture",
+        "acceptable": [
+          "fluture"
+        ]
+      },
+      {
+        "id": 4,
+        "word": "Vogel",
+        "correct": "pasare",
+        "acceptable": [
+          "pasare"
+        ]
+      },
+      {
+        "id": 5,
+        "word": "Blume",
+        "correct": "floare",
+        "acceptable": [
+          "floare"
+        ]
+      },
+      {
+        "id": 6,
+        "word": "Baum",
+        "correct": "copac",
+        "acceptable": [
+          "copac"
+        ]
+      },
+      {
+        "id": 7,
+        "word": "Fluss",
+        "correct": "rau",
+        "acceptable": [
+          "rau"
+        ]
+      },
+      {
+        "id": 8,
+        "word": "Feld",
+        "correct": "camp",
+        "acceptable": [
+          "camp"
+        ]
+      },
+      {
+        "id": 9,
+        "word": "Straße",
+        "correct": "drum",
+        "acceptable": [
+          "drum"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "Brücke",
+        "correct": "pod",
+        "acceptable": [
+          "pod"
+        ]
+      },
+      {
+        "id": 11,
+        "word": "Mauer",
+        "correct": "zid",
+        "acceptable": [
+          "zid"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "Tor",
+        "correct": "poarta",
+        "acceptable": [
+          "poarta"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "Turm",
+        "correct": "turn",
+        "acceptable": [
+          "turn"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "Glocke",
+        "correct": "clopot",
+        "acceptable": [
+          "clopot"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "Feuer",
+        "correct": "foc",
+        "acceptable": [
+          "foc"
+        ]
+      }
+    ],
+    "ru": [
+      {
+        "id": 1,
+        "word": "звезда",
+        "correct": "stea",
+        "acceptable": [
+          "stea"
+        ]
+      },
+      {
+        "id": 2,
+        "word": "луна",
+        "correct": "luna",
+        "acceptable": [
+          "luna"
+        ]
+      },
+      {
+        "id": 3,
+        "word": "бабочка",
+        "correct": "fluture",
+        "acceptable": [
+          "fluture"
+        ]
+      },
+      {
+        "id": 4,
+        "word": "птица",
+        "correct": "pasare",
+        "acceptable": [
+          "pasare"
+        ]
+      },
+      {
+        "id": 5,
+        "word": "цветок",
+        "correct": "floare",
+        "acceptable": [
+          "floare"
+        ]
+      },
+      {
+        "id": 6,
+        "word": "дерево",
+        "correct": "copac",
+        "acceptable": [
+          "copac"
+        ]
+      },
+      {
+        "id": 7,
+        "word": "река",
+        "correct": "rau",
+        "acceptable": [
+          "rau"
+        ]
+      },
+      {
+        "id": 8,
+        "word": "поле",
+        "correct": "camp",
+        "acceptable": [
+          "camp"
+        ]
+      },
+      {
+        "id": 9,
+        "word": "дорога",
+        "correct": "drum",
+        "acceptable": [
+          "drum"
+        ]
+      },
+      {
+        "id": 10,
+        "word": "мост",
+        "correct": "pod",
+        "acceptable": [
+          "pod"
+        ]
+      },
+      {
+        "id": 11,
+        "word": "стена",
+        "correct": "zid",
+        "acceptable": [
+          "zid"
+        ]
+      },
+      {
+        "id": 12,
+        "word": "ворота",
+        "correct": "poarta",
+        "acceptable": [
+          "poarta"
+        ]
+      },
+      {
+        "id": 13,
+        "word": "башня",
+        "correct": "turn",
+        "acceptable": [
+          "turn"
+        ]
+      },
+      {
+        "id": 14,
+        "word": "колокол",
+        "correct": "clopot",
+        "acceptable": [
+          "clopot"
+        ]
+      },
+      {
+        "id": 15,
+        "word": "огонь",
+        "correct": "foc",
+        "acceptable": [
+          "foc"
+        ]
+      }
+    ]
+  }
+}

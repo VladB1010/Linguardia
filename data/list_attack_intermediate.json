@@ -1,0 +1,448 @@
+{
+  "attack": {
+	"en": [
+	  {
+		"id": 1,
+		"word": "prietenie",
+		"options": [
+		  "joy",
+		  "friendship",
+		  "happiness",
+          "wisdom"
+		],
+		"correct": "friendship"
+	  },
+	  {
+		"id": 2,
+		"word": "bucurie",
+		"options": [
+		  "pain",
+		  "love",
+		  "courage",
+          "joy"
+		],
+		"correct": "joy"
+	  },
+	  {
+		"id": 3,
+		"word": "liniste",
+		"options": [
+		  "happiness",
+		  "pride",
+		  "calm",
+          "desire"
+		],
+		"correct": "calm"
+	  },
+	  {
+		"id": 4,
+		"word": "curaj",
+		"options": [
+		  "courage",
+		  "joy",
+		  "memory",
+          "happiness"
+		],
+		"correct": "courage"
+	  },
+	  {
+		"id": 5,
+		"word": "intelepciune",
+		"options": [
+		  "wisdom",
+		  "pain",
+		  "joy",
+          "calm"
+		],
+		"correct": "wisdom"
+	  },
+	  {
+		"id": 6,
+		"word": "recunostinta",
+		"options": [
+		  "gratitude",
+		  "hope",
+		  "trust",
+          "shame"
+		],
+		"correct": "gratitude"
+	  },
+	  {
+		"id": 7,
+		"word": "speranta",
+		"options": [
+		  "hope",
+		  "pain",
+		  "trust",
+          "happiness"
+		],
+		"correct": "hope"
+	  },
+	  {
+		"id": 8,
+		"word": "iubire",
+		"options": [
+		  "hope",
+		  "compassion",
+		  "love",
+          "pride"
+		],
+		"correct": "love"
+	  },
+	  {
+		"id": 9,
+		"word": "durere",
+		"options": [
+		  "desire",
+		  "fear",
+		  "compassion",
+          "pain"
+		],
+		"correct": "pain"
+	  },
+	  {
+		"id": 10,
+		"word": "fericire",
+		"options": [
+		  "calm",
+		  "desire",
+		  "happiness",
+          "fear"
+		],
+		"correct": "happiness"
+	  },
+	  {
+		"id": 11,
+		"word": "uimire",
+		"options": [
+		  "amazement",
+		  "courage",
+		  "happiness",
+          "pride"
+		],
+		"correct": "amazement"
+	  },
+	  {
+		"id": 12,
+		"word": "mandrie",
+		"options": [
+		  "pride",
+		  "disappointment",
+		  "hope",
+          "happiness"
+		],
+		"correct": "pride"
+	  },
+	  {
+		"id": 13,
+		"word": "rusine",
+		"options": [
+		  "shame",
+		  "happiness",
+		  "love",
+          "pride"
+		],
+		"correct": "shame"
+	  },
+	  {
+		"id": 14,
+		"word": "teama",
+		"options": [
+		  "fear",
+		  "wisdom",
+		  "gratitude",
+          "expectation"
+		],
+		"correct": "fear"
+	  },
+	  {
+		"id": 15,
+		"word": "dorinta",
+		"options": [
+		  "compassion",
+		  "desire",
+		  "disappointment",
+          "memory"
+		],
+		"correct": "desire"
+	  },
+	  {
+		"id": 16,
+		"word": "amintire",
+		"options": [
+		  "calm",
+		  "memory",
+		  "friendship",
+          "joy"
+		],
+		"correct": "memory"
+	  },
+	  {
+		"id": 17,
+		"word": "asteptare",
+		"options": [
+		  "wisdom",
+		  "hope",
+		  "trust",
+          "expectation"
+		],
+		"correct": "expectation"
+	  },
+	  {
+		"id": 18,
+		"word": "dezamagire",
+		"options": [
+		  "disappointment",
+		  "trust",
+		  "fear",
+          "pride"
+		],
+		"correct": "disappointment"
+	  },
+	  {
+		"id": 19,
+		"word": "incredere",
+		"options": [
+		  "trust",
+		  "hope",
+		  "disappointment",
+          "desire"
+		],
+		"correct": "trust"
+	  },
+	  {
+		"id": 20,
+		"word": "compasiune",
+		"options": [
+		  "joy",
+		  "friendship",
+		  "disappointment",
+          "compassion"
+		],
+		"correct": "compassion"
+	  }
+	],
+	"de": [
+	  {
+		"id": 1,
+		"word": "prietenie",
+		"options": [
+		  "Mitgefühl",
+		  "Dankbarkeit",
+		  "Schmerz",
+          "Freundschaft"
+		],
+		"correct": "Freundschaft"
+	  },
+	  {
+		"id": 2,
+		"word": "bucurie",
+		"options": [
+		  "Freundschaft",
+		  "Freude",
+		  "Enttäuschung",
+          "Liebe"
+		],
+		"correct": "Freude"
+	  },
+	  {
+		"id": 3,
+		"word": "liniste",
+		"options": [
+		  "Stille",
+		  "Stolz",
+		  "Liebe",
+          "Dankbarkeit"
+		],
+		"correct": "Stille"
+	  },
+	  {
+		"id": 4,
+		"word": "curaj",
+		"options": [
+		  "Weisheit",
+		  "Vertrauen",
+		  "Mut",
+          "Angst"
+		],
+		"correct": "Mut"
+	  },
+	  {
+		"id": 5,
+		"word": "intelepciune",
+		"options": [
+		  "Erstaunen",
+		  "Stille",
+		  "Schmerz",
+          "Weisheit"
+		],
+		"correct": "Weisheit"
+	  },
+	  {
+		"id": 6,
+		"word": "recunostinta",
+		"options": [
+		  "Liebe",
+		  "Stille",
+		  "Dankbarkeit",
+          "Glück"
+		],
+		"correct": "Dankbarkeit"
+	  },
+	  {
+		"id": 7,
+		"word": "speranta",
+		"options": [
+		  "Freude",
+		  "Hoffnung",
+		  "Stolz",
+          "Schmerz"
+		],
+		"correct": "Hoffnung"
+	  },
+	  {
+		"id": 8,
+		"word": "iubire",
+		"options": [
+		  "Erwartung",
+		  "Liebe",
+		  "Erinnerung",
+          "Angst"
+		],
+		"correct": "Liebe"
+	  },
+	  {
+		"id": 9,
+		"word": "durere",
+		"options": [
+		  "Liebe",
+		  "Weisheit",
+		  "Schmerz",
+          "Scham"
+		],
+		"correct": "Schmerz"
+	  },
+	  {
+		"id": 10,
+		"word": "fericire",
+		"options": [
+		  "Glück",
+		  "Erinnerung",
+		  "Enttäuschung",
+          "Angst"
+		],
+		"correct": "Glück"
+	  },
+	  {
+		"id": 11,
+		"word": "uimire",
+		"options": [
+		  "Erstaunen",
+		  "Wunsch",
+		  "Erinnerung",
+          "Dankbarkeit"
+		],
+		"correct": "Erstaunen"
+	  },
+	  {
+		"id": 12,
+		"word": "mandrie",
+		"options": [
+		  "Scham",
+		  "Dankbarkeit",
+		  "Weisheit",
+          "Stolz"
+		],
+		"correct": "Stolz"
+	  },
+	  {
+		"id": 13,
+		"word": "rusine",
+		"options": [
+		  "Liebe",
+		  "Scham",
+		  "Stille",
+          "Freude"
+		],
+		"correct": "Scham"
+	  },
+	  {
+		"id": 14,
+		"word": "teama",
+		"options": [
+		  "Schmerz",
+		  "Angst",
+		  "Enttäuschung",
+          "Wunsch"
+		],
+		"correct": "Angst"
+	  },
+	  {
+		"id": 15,
+		"word": "dorinta",
+		"options": [
+		  "Wunsch",
+		  "Mut",
+		  "Vertrauen",
+          "Liebe"
+		],
+		"correct": "Wunsch"
+	  },
+	  {
+		"id": 16,
+		"word": "amintire",
+		"options": [
+		  "Liebe",
+		  "Stille",
+		  "Erinnerung",
+          "Freude"
+		],
+		"correct": "Erinnerung"
+	  },
+	  {
+		"id": 17,
+		"word": "asteptare",
+		"options": [
+		  "Liebe",
+		  "Erinnerung",
+		  "Erwartung",
+          "Mitgefühl"
+		],
+		"correct": "Erwartung"
+	  },
+	  {
+		"id": 18,
+		"word": "dezamagire",
+		"options": [
+		  "Freude",
+		  "Mut",
+		  "Enttäuschung",
+          "Wunsch"
+		],
+		"correct": "Enttäuschung"
+	  },
+	  {
+		"id": 19,
+		"word": "incredere",
+		"options": [
+		  "Dankbarkeit",
+		  "Vertrauen",
+		  "Angst",
+          "Weisheit"
+		],
+		"correct": "Vertrauen"
+	  },
+	  {
+		"id": 20,
+		"word": "compasiune",
+		"options": [
+		  "Dankbarkeit",
+		  "Stille",
+		  "Mitgefühl",
+          "Liebe"
+		],
+		"correct": "Mitgefühl"
+	  }
+	]
+  }
+}

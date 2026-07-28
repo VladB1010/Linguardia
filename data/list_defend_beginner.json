@@ -1,0 +1,370 @@
+{
+  "defend": {
+	"en": [
+	  {
+		"id": 1,
+		"word": "munte",
+		"correct": "mountain",
+		"acceptable": ["mountain", "mntain", "montain", "the mountain", "muntain", "mount", "cliff", "peak", "alp"]
+	  },
+	  {
+		"id": 2,
+		"word": "apa",
+		"correct": "water",
+		"acceptable": ["water", "watter", "waater", "the water", "waters", "liquid", "drink water", "fresh water", "h2o"]
+	  },
+	  {
+		"id": 3,
+		"word": "copac",
+		"correct": "tree",
+		"acceptable": ["tree", "tre", "treee", "the tree", "wood", "plant", "oak", "pine", "forest tree"]
+	  },
+	  {
+		"id": 4,
+		"word": "soare",
+		"correct": "sun",
+		"acceptable": ["sun", "the sun", "sunn", "sunlight", "solar", "day star", "bright sun", "sunshine", "star"]
+	  },
+	  {
+		"id": 5,
+		"word": "luna",
+		"correct": "moon",
+		"acceptable": ["moon", "the moon", "mooon", "lunar", "moonlight", "satellite", "full moon", "half moon", "night moon"]
+	  },
+	  {
+		"id": 6,
+		"word": "carte",
+		"correct": "book",
+		"acceptable": ["book", "bok", "the book", "books", "textbook", "novel", "reading book", "manual", "volume"]
+	  },
+	  {
+		"id": 7,
+		"word": "fereastra",
+		"correct": "window",
+		"acceptable": ["window", "windo", "windoow", "the window", "glass window", "opening", "frame", "pane", "windows"]
+	  },
+	  {
+		"id": 8,
+		"word": "usa",
+		"correct": "door",
+		"acceptable": ["door", "dor", "dooor", "the door", "gate", "entry", "entrance", "wooden door", "front door"]
+	  },
+	  {
+		"id": 9,
+		"word": "scaun",
+		"correct": "chair",
+		"acceptable": ["chair", "chairr", "char", "the chair", "seat", "stool", "office chair", "wooden chair", "sitting chair"]
+	  },
+	  {
+		"id": 10,
+		"word": "masa",
+		"correct": "table",
+		"acceptable": ["table", "tabl", "taable", "the table", "desk", "dining table", "wooden table", "kitchen table", "counter"]
+	  },
+	  {
+		"id": 11,
+		"word": "caine",
+		"correct": "dog",
+		"acceptable": ["dog", "doog", "the dog", "dogs", "puppy", "hound", "canine", "pet dog", "big dog"]
+	  },
+	  {
+		"id": 12,
+		"word": "pisica",
+		"correct": "cat",
+		"acceptable": ["cat", "catt", "the cat", "kitty", "kitten", "feline", "pet cat", "house cat", "cats"]
+	  },
+	  {
+		"id": 13,
+		"word": "cal",
+		"correct": "horse",
+		"acceptable": ["horse", "hors", "the horse", "pony", "stallion", "mare", "ride horse", "wild horse", "horses"]
+	  },
+	  {
+		"id": 14,
+		"word": "pasare",
+		"correct": "bird",
+		"acceptable": ["bird", "bird", "the bird", "flying bird", "sparrow", "eagle", "small bird", "winged animal", "birds"]
+	  },
+	  {
+		"id": 15,
+		"word": "mare",
+		"correct": "sea",
+		"acceptable": ["sea", "see", "the sea", "ocean", "big water", "coast", "marine", "salt water", "seaside"]
+	  },
+	  {
+		"id": 16,
+		"word": "oras",
+		"correct": "city",
+		"acceptable": ["city", "citty", "the city", "town", "urban area", "municipality", "capital", "large town", "cities"]
+	  },
+	  {
+		"id": 17,
+		"word": "sat",
+		"correct": "village",
+		"acceptable": ["village", "villlage", "the village", "small town", "rural area", "hamlet", "countryside", "settlement", "villages"]
+	  },
+	  {
+		"id": 18,
+		"word": "drapel",
+		"correct": "flag",
+		"acceptable": ["flag", "flagg", "the flag", "banner", "national flag", "symbol", "pennant", "country flag", "ensign"]
+	  },
+	  {
+		"id": 19,
+		"word": "fericire",
+		"correct": "happiness",
+		"acceptable": ["happiness", "happy", "joy", "joyful", "gladness", "pleasure", "delight", "being happy", "happyness"]
+	  },
+	  {
+		"id": 20,
+		"word": "a invata",
+		"correct": "learn",
+		"acceptable": ["learn", "to learn", "learning", "learne", "study", "to study", "understand", "know", "education"]
+	  }
+	],
+	"de": [
+	  {
+		"id": 1,
+		"word": "Haus",
+		"correct": "casa",
+		"acceptable": ["casa", "locuinta", "căsuță", "domiciliu"]
+	  },
+	  {
+		"id": 2,
+		"word": "Baum",
+		"correct": "copac",
+		"acceptable": ["copac", "arbore", "stejar", "pin"]
+	  },
+	  {
+		"id": 3,
+		"word": "Wasser",
+		"correct": "apa",
+		"acceptable": ["apa", "apă", "h2o", "lichid"]
+	  },
+	  {
+		"id": 4,
+		"word": "Hund",
+		"correct": "caine",
+		"acceptable": ["caine", "câine", "catel", "animal de companie"]
+	  },
+	  {
+		"id": 5,
+		"word": "Katze",
+		"correct": "pisica",
+		"acceptable": ["pisica", "pisică", "mâță", "felină"]
+	  },
+	  {
+		"id": 6,
+		"word": "Pferd",
+		"correct": "cal",
+		"acceptable": ["cal", "armasar", "iapa"]
+	  },
+	  {
+		"id": 7,
+		"word": "Sonne",
+		"correct": "soare",
+		"acceptable": ["soare", "astru", "lumina zilei"]
+	  },
+	  {
+		"id": 8,
+		"word": "Mond",
+		"correct": "luna",
+		"acceptable": ["luna", "lună", "satelit"]
+	  },
+	  {
+		"id": 9,
+		"word": "Buch",
+		"correct": "carte",
+		"acceptable": ["carte", "volum", "manual", "roman"]
+	  },
+	  {
+		"id": 10,
+		"word": "Tür",
+		"correct": "usa",
+		"acceptable": ["usa", "ușă", "intrare", "poarta"]
+	  },
+	  {
+		"id": 11,
+		"word": "Fenster",
+		"correct": "fereastra",
+		"acceptable": ["fereastra", "fereastră", "geam"]
+	  },
+	  {
+		"id": 12,
+		"word": "Stuhl",
+		"correct": "scaun",
+		"acceptable": ["scaun", "șezut", "scaunel"]
+	  },
+	  {
+		"id": 13,
+		"word": "Tisch",
+		"correct": "masa",
+		"acceptable": ["masa", "masă", "birou", "masa de lucru"]
+	  },
+	  {
+		"id": 14,
+		"word": "Stadt",
+		"correct": "oras",
+		"acceptable": ["oras", "oraș", "municipiu", "cetate"]
+	  },
+	  {
+		"id": 15,
+		"word": "Dorf",
+		"correct": "sat",
+		"acceptable": ["sat", "comuna", "localitate rurala"]
+	  },
+	  {
+		"id": 16,
+		"word": "Berg",
+		"correct": "munte",
+		"acceptable": ["munte", "vârf", "culme"]
+	  },
+	  {
+		"id": 17,
+		"word": "Meer",
+		"correct": "mare",
+		"acceptable": ["mare", "ocean", "apa sarata"]
+	  },
+	  {
+		"id": 18,
+		"word": "Freund",
+		"correct": "prieten",
+		"acceptable": ["prieten", "amic", "tovaras"]
+	  },
+	  {
+		"id": 19,
+		"word": "Liebe",
+		"correct": "dragoste",
+		"acceptable": ["dragoste", "iubire", "afectiune"]
+	  },
+	  {
+		"id": 20,
+		"word": "Zeit",
+		"correct": "timp",
+		"acceptable": ["timp", "vreme", "durata"]
+	  }
+	],
+	"ru": [
+	  {
+		"id": 1,
+		"word": "дом",
+		"correct": "casa",
+		"acceptable": ["casa", "locuinta", "domiciliu"]
+	  },
+	  {
+		"id": 2,
+		"word": "дерево",
+		"correct": "copac",
+		"acceptable": ["copac", "arbore", "stejar", "pin"]
+	  },
+	  {
+		"id": 3,
+		"word": "вода",
+		"correct": "apa",
+		"acceptable": ["apa", "h2o", "lichid"]
+	  },
+	  {
+		"id": 4,
+		"word": "собака",
+		"correct": "caine",
+		"acceptable": ["caine", "catel", "animal de companie"]
+	  },
+	  {
+		"id": 5,
+		"word": "кошка",
+		"correct": "pisica",
+		"acceptable": ["pisica", "mata", "felina"]
+	  },
+	  {
+		"id": 6,
+		"word": "лошадь",
+		"correct": "cal",
+		"acceptable": ["cal", "armasar", "iapa"]
+	  },
+	  {
+		"id": 7,
+		"word": "солнце",
+		"correct": "soare",
+		"acceptable": ["soare", "astru", "lumina zilei"]
+	  },
+	  {
+		"id": 8,
+		"word": "луна",
+		"correct": "luna",
+		"acceptable": ["luna", "satelit"]
+	  },
+	  {
+		"id": 9,
+		"word": "книга",
+		"correct": "carte",
+		"acceptable": ["carte", "manual", "roman", "volum"]
+	  },
+	  {
+		"id": 10,
+		"word": "дверь",
+		"correct": "usa",
+		"acceptable": ["usa", "intrare", "poarta"]
+	  },
+	  {
+		"id": 11,
+		"word": "окно",
+		"correct": "fereastra",
+		"acceptable": ["fereastra", "geam"]
+	  },
+	  {
+		"id": 12,
+		"word": "стул",
+		"correct": "scaun",
+		"acceptable": ["scaun", "scaunel"]
+	  },
+	  {
+		"id": 13,
+		"word": "стол",
+		"correct": "masa",
+		"acceptable": ["masa", "birou"]
+	  },
+	  {
+		"id": 14,
+		"word": "город",
+		"correct": "oras",
+		"acceptable": ["oras", "municipiu", "cetate"]
+	  },
+	  {
+		"id": 15,
+		"word": "деревня",
+		"correct": "sat",
+		"acceptable": ["sat", "comuna"]
+	  },
+	  {
+		"id": 16,
+		"word": "гора",
+		"correct": "munte",
+		"acceptable": ["munte", "varf", "culme"]
+	  },
+	  {
+		"id": 17,
+		"word": "море",
+		"correct": "mare",
+		"acceptable": ["mare", "ocean", "apa sarata"]
+	  },
+	  {
+		"id": 18,
+		"word": "друг",
+		"correct": "prieten",
+		"acceptable": ["prieten", "amic", "tovaras"]
+	  },
+	  {
+		"id": 19,
+		"word": "любовь",
+		"correct": "dragoste",
+		"acceptable": ["dragoste", "iubire", "afectiune"]
+	  },
+	  {
+		"id": 20,
+		"word": "время",
+		"correct": "timp",
+		"acceptable": ["timp", "vreme", "durata"]
+	  }
+	]
+  }
+}

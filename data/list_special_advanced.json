@@ -1,0 +1,106 @@
+{
+  "special": {
+    "en": [
+      {
+        "id": 1,
+        "sentence": "In the hush before the storm, the wolf and the shepherd share the same fear, though neither will admit it."
+      },
+      {
+        "id": 2,
+        "sentence": "To speak the name of the dead is to invite their silence into your own house."
+      },
+      {
+        "id": 3,
+        "sentence": "The mountain does not remember the men who climbed it, only the ones who never came down."
+      },
+      {
+        "id": 4,
+        "sentence": "Wisdom arrives too late for those who spent their youth refusing to listen."
+      },
+      {
+        "id": 5,
+        "sentence": "A kingdom built on fear crumbles the moment its enemies stop believing in it."
+      },
+      {
+        "id": 6,
+        "sentence": "The flame that warms the village can just as easily become the fire that consumes it."
+      },
+      {
+        "id": 7,
+        "sentence": "Every legend was once an ordinary truth that grew teeth with the telling."
+      },
+      {
+        "id": 8,
+        "sentence": "The strongest chains are not forged from iron but from the promises we are too afraid to break."
+      }
+    ],
+    "de": [
+      {
+        "id": 1,
+        "sentence": "In der Stille vor dem Sturm teilen Wolf und Hirte dieselbe Angst, auch wenn keiner von beiden es zugeben will."
+      },
+      {
+        "id": 2,
+        "sentence": "Den Namen der Toten auszusprechen heißt, ihr Schweigen in das eigene Haus einzuladen."
+      },
+      {
+        "id": 3,
+        "sentence": "Der Berg erinnert sich nicht an die Männer, die ihn bestiegen haben, sondern nur an jene, die nie herabkamen."
+      },
+      {
+        "id": 4,
+        "sentence": "Weisheit kommt zu spät für jene, die ihre Jugend damit verbrachten, nicht zuzuhören."
+      },
+      {
+        "id": 5,
+        "sentence": "Ein auf Angst gebautes Königreich zerfällt in dem Moment, in dem seine Feinde aufhören, daran zu glauben."
+      },
+      {
+        "id": 6,
+        "sentence": "Die Flamme, die das Dorf wärmt, kann ebenso leicht zum Feuer werden, das es verzehrt."
+      },
+      {
+        "id": 7,
+        "sentence": "Jede Legende war einst eine gewöhnliche Wahrheit, die beim Erzählen Zähne bekam."
+      },
+      {
+        "id": 8,
+        "sentence": "Die stärksten Ketten sind nicht aus Eisen geschmiedet, sondern aus den Versprechen, die wir zu brechen fürchten."
+      }
+    ],
+    "ru": [
+      {
+        "id": 1,
+        "sentence": "В тишине перед бурей волк и пастух разделяют один и тот же страх, хотя ни один из них в этом не признается."
+      },
+      {
+        "id": 2,
+        "sentence": "Произнести имя умершего — значит впустить его молчание в собственный дом."
+      },
+      {
+        "id": 3,
+        "sentence": "Гора не помнит людей, которые поднялись на неё, лишь тех, кто так и не спустился."
+      },
+      {
+        "id": 4,
+        "sentence": "Мудрость приходит слишком поздно для тех, кто провёл юность, отказываясь слушать."
+      },
+      {
+        "id": 5,
+        "sentence": "Королевство, построенное на страхе, рушится в тот миг, когда его враги перестают в него верить."
+      },
+      {
+        "id": 6,
+        "sentence": "Пламя, что согревает деревню, так же легко может стать огнём, что её поглощает."
+      },
+      {
+        "id": 7,
+        "sentence": "Каждая легенда когда-то была обычной правдой, обросшей зубами в пересказах."
+      },
+      {
+        "id": 8,
+        "sentence": "Самые крепкие цепи скованы не из железа, а из обещаний, которые мы боимся нарушить."
+      }
+    ]
+  }
+}

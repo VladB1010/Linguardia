@@ -1,0 +1,110 @@
+{
+  "riddle": {
+	"en": [
+	  {
+		"id": 1,
+		"card": "K",
+		"sentence": "Upon a throne of painted gold,\nI command without a sound.\nMy crown is flat, yet kingdoms fold\nWhenever I am found."
+	  },
+	  {
+		"id": 2,
+		"card": "K",
+		"sentence": "Four brothers share my royal face,\nYet none of us can truly reign.\nIn every suit I hold my place,\nA silent monarch in the game."
+	  },
+	  {
+		"id": 3,
+		"card": "Q",
+		"sentence": "Beside the king I always stand,\nThough I may rule with subtler art.\nA jeweled crown, a steady hand,\nAnd half the kingdom in my heart."
+	  },
+	  {
+		"id": 4,
+		"card": "Q",
+		"sentence": "I speak no law, yet courts obey;\nMy power blooms where wisdom grows.\nClothed in silk and bright array,\nWho am I? The player knows."
+	  },
+	  {
+		"id": 5,
+		"card": "J",
+		"sentence": "Neither crowned nor crowned beside,\nI walk between the high and low.\nA youthful face, a servant’s stride,\nYet through the royal halls I go."
+	  },
+	  {
+		"id": 6,
+		"card": "J",
+		"sentence": "I bear no throne, I wear no crown,\nBut kings still keep me near.\nIn every suit I travel town to town,\nA loyal hand sincere."
+	  },
+	  {
+		"id": 7,
+		"card": "Joker",
+		"sentence": "I laugh where rules are carved in stone;\nI dance outside the ordered deck.\nToday I’m none, tomorrow all—\nChaos hides beneath my neck."
+	  }
+	],
+	"de": [
+	  {
+		"id": 1,
+		"card": "K",
+		"sentence": "Auf goldenem Thron sitze ich still,\nUnd dennoch beugt sich jedes Blatt.\nVierfach erscheint mein königlicher Wille—\nWer bin ich in diesem Kartenstaat?"
+	  },
+	  {
+		"id": 2,
+		"card": "K",
+		"sentence": "Ich trage eine Krone aus Farbe und Papier,\nDoch Herrscher nennt man mich im Spiel.\nIn jedem Zeichen stehe ich hier,\nEin stummer König mit viel Gefühl."
+	  },
+	  {
+		"id": 3,
+		"card": "Q",
+		"sentence": "Neben dem König halte ich Wacht,\nMit sanfter Macht und klarem Blick.\nKein Schwert, das meine Stärke macht,\nDoch oft entscheidet mein Geschick."
+	  },
+	  {
+		"id": 4,
+		"card": "Q",
+		"sentence": "In Seide gehüllt, mit funkelndem Schein,\nRegiere ich Herzen mehr als Land.\nWer könnte diese Herrscherin sein,\nMit Krone und ruhiger Hand?"
+	  },
+	  {
+		"id": 5,
+		"card": "J",
+		"sentence": "Kein König bin ich, keine Königin,\nUnd doch gehöre ich zum Hof.\nZwischen Macht und Dienst geh ich dahin,\nEin junger Schatten ohne Stoff."
+	  },
+	  {
+		"id": 6,
+		"card": "J",
+		"sentence": "Ich trage Botschaften durch Schloss und Spiel,\nOhne Krone, ohne Thron.\nDoch jeder Herrscher braucht mich viel—\nWer bin ich? Man kennt mich schon."
+	  },
+	  {
+		"id": 7,
+		"card": "Joker",
+		"sentence": "Ich lache dort, wo Regeln wohnen,\nUnd tanze außerhalb der Zahl.\nMal bin ich nichts, mal alle Kronen—\nEin Narr mit grenzenloser Wahl."
+	  }
+	],
+	"ru": [
+	  {
+		"id": 1,
+		"card": "K",
+		"sentence": "Корона над взором, меч у плеча,\nЯ правлю колодой сквозь годы молча.\nМеня не стирает ни время, ни рок.\nКто я?"
+	  },
+	  {
+		"id": 2,
+		"card": "Q",
+		"sentence": "Я не поднимаю меча на войну,\nНо дрогнет и трон, если я поверну.\nВ короне молчанья стою я одна.\nКто я?"
+	  },
+	  {
+		"id": 3,
+		"card": "Q",
+		"sentence": "У трона мой тихий сияет след,\nЯ прячу в улыбке королевский секрет.\nМоя сила — в том, что её не видят.\nКакая я карта?"
+	  },
+	  {
+		"id": 4,
+		"card": "J",
+		"sentence": "Не король и не дама в венце,\nНо место моё — при дворце.\nЮн лицом, да ловок в делах.\nКакая я карта?"
+	  },
+	  {
+		"id": 5,
+		"card": "J",
+		"sentence": "Я ношу шёпот по длинным залам,\nМне рано править, но поздно бояться.\nДвор помнит моё имя.\nКто я?"
+	  },
+	  {
+		"id": 6,
+		"card": "Joker",
+		"sentence": "Где спит порядок, там мой карнавал,\nШутка, обман и случайный финал.\nНи одна масть не держит меня.\nКто я?"
+	  }
+	]
+  }
+}

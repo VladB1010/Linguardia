@@ -1,0 +1,448 @@
+{
+  "attack": {
+	"en": [
+	  {
+		"id": 1,
+		"word": "blestem",
+		"options": [
+		  "prophecy",
+		  "curse",
+		  "crossroads",
+          "spell"
+		],
+		"correct": "curse"
+	  },
+	  {
+		"id": 2,
+		"word": "vraja",
+		"options": [
+		  "fate",
+		  "fated destiny",
+		  "destiny",
+          "spell"
+		],
+		"correct": "spell"
+	  },
+	  {
+		"id": 3,
+		"word": "soarta",
+		"options": [
+		  "fate",
+		  "prophecy",
+		  "destiny",
+          "realm"
+		],
+		"correct": "fate"
+	  },
+	  {
+		"id": 4,
+		"word": "taram",
+		"options": [
+		  "eternity",
+		  "realm",
+		  "sacrifice",
+          "fated destiny"
+		],
+		"correct": "realm"
+	  },
+	  {
+		"id": 5,
+		"word": "descantec",
+		"options": [
+		  "incantation",
+		  "omen",
+		  "curse",
+          "realm"
+		],
+		"correct": "incantation"
+	  },
+	  {
+		"id": 6,
+		"word": "naluca",
+		"options": [
+		  "apparition",
+		  "prophecy",
+		  "omen",
+          "mystery"
+		],
+		"correct": "apparition"
+	  },
+	  {
+		"id": 7,
+		"word": "profetie",
+		"options": [
+		  "prophecy",
+		  "folk belief",
+		  "realm",
+          "incantation"
+		],
+		"correct": "prophecy"
+	  },
+	  {
+		"id": 8,
+		"word": "ursita",
+		"options": [
+		  "fate",
+		  "fated destiny",
+		  "eternity",
+          "zodiac sign"
+		],
+		"correct": "fated destiny"
+	  },
+	  {
+		"id": 9,
+		"word": "abis",
+		"options": [
+		  "curse",
+		  "abyss",
+		  "zodiac sign",
+          "destiny"
+		],
+		"correct": "abyss"
+	  },
+	  {
+		"id": 10,
+		"word": "eternitate",
+		"options": [
+		  "eternity",
+		  "spell",
+		  "vow",
+          "mystery"
+		],
+		"correct": "eternity"
+	  },
+	  {
+		"id": 11,
+		"word": "taina",
+		"options": [
+		  "curse",
+		  "apparition",
+		  "mystery",
+          "zodiac sign"
+		],
+		"correct": "mystery"
+	  },
+	  {
+		"id": 12,
+		"word": "jertfa",
+		"options": [
+		  "sacrifice",
+		  "prophecy",
+		  "dread",
+          "fated destiny"
+		],
+		"correct": "sacrifice"
+	  },
+	  {
+		"id": 13,
+		"word": "legamant",
+		"options": [
+		  "fate",
+		  "vow",
+		  "abyss",
+          "folk belief"
+		],
+		"correct": "vow"
+	  },
+	  {
+		"id": 14,
+		"word": "rascruce",
+		"options": [
+		  "zodiac sign",
+		  "crossroads",
+		  "realm",
+          "spell"
+		],
+		"correct": "crossroads"
+	  },
+	  {
+		"id": 15,
+		"word": "zodie",
+		"options": [
+		  "curse",
+		  "infinity",
+		  "zodiac sign",
+          "prophecy"
+		],
+		"correct": "zodiac sign"
+	  },
+	  {
+		"id": 16,
+		"word": "semn",
+		"options": [
+		  "crossroads",
+		  "omen",
+		  "infinity",
+          "eternity"
+		],
+		"correct": "omen"
+	  },
+	  {
+		"id": 17,
+		"word": "spaima",
+		"options": [
+		  "dread",
+		  "eternity",
+		  "folk belief",
+          "vow"
+		],
+		"correct": "dread"
+	  },
+	  {
+		"id": 18,
+		"word": "infinit",
+		"options": [
+		  "zodiac sign",
+		  "prophecy",
+		  "infinity",
+          "dread"
+		],
+		"correct": "infinity"
+	  },
+	  {
+		"id": 19,
+		"word": "destin",
+		"options": [
+		  "prophecy",
+		  "fated destiny",
+		  "incantation",
+          "destiny"
+		],
+		"correct": "destiny"
+	  },
+	  {
+		"id": 20,
+		"word": "eres",
+		"options": [
+		  "destiny",
+		  "folk belief",
+		  "omen",
+          "vow"
+		],
+		"correct": "folk belief"
+	  }
+	],
+	"de": [
+	  {
+		"id": 1,
+		"word": "blestem",
+		"options": [
+		  "Zeichen",
+		  "Fluch",
+		  "Kreuzung",
+          "Ewigkeit"
+		],
+		"correct": "Fluch"
+	  },
+	  {
+		"id": 2,
+		"word": "vraja",
+		"options": [
+		  "Schicksal",
+		  "Zauber",
+		  "Schicksal",
+          "Opfer"
+		],
+		"correct": "Zauber"
+	  },
+	  {
+		"id": 3,
+		"word": "soarta",
+		"options": [
+		  "Schicksal",
+		  "Zauberspruch",
+		  "Kreuzung",
+          "Abgrund"
+		],
+		"correct": "Schicksal"
+	  },
+	  {
+		"id": 4,
+		"word": "taram",
+		"options": [
+		  "Kreuzung",
+		  "Abgrund",
+		  "Ewigkeit",
+          "Reich"
+		],
+		"correct": "Reich"
+	  },
+	  {
+		"id": 5,
+		"word": "descantec",
+		"options": [
+		  "Bestimmung",
+		  "Schicksal",
+		  "Zauberspruch",
+          "Schicksal"
+		],
+		"correct": "Zauberspruch"
+	  },
+	  {
+		"id": 6,
+		"word": "naluca",
+		"options": [
+		  "Unendlichkeit",
+		  "Geheimnis",
+		  "Gespenst",
+          "Schicksal"
+		],
+		"correct": "Gespenst"
+	  },
+	  {
+		"id": 7,
+		"word": "profetie",
+		"options": [
+		  "Bestimmung",
+		  "Ewigkeit",
+		  "Geheimnis",
+          "Prophezeiung"
+		],
+		"correct": "Prophezeiung"
+	  },
+	  {
+		"id": 8,
+		"word": "ursita",
+		"options": [
+		  "Zauber",
+		  "Bestimmung",
+		  "Opfer",
+          "Fluch"
+		],
+		"correct": "Bestimmung"
+	  },
+	  {
+		"id": 9,
+		"word": "abis",
+		"options": [
+		  "Schicksal",
+		  "Zauberspruch",
+		  "Reich",
+          "Abgrund"
+		],
+		"correct": "Abgrund"
+	  },
+	  {
+		"id": 10,
+		"word": "eternitate",
+		"options": [
+		  "Ewigkeit",
+		  "Bestimmung",
+		  "Schwur",
+          "Prophezeiung"
+		],
+		"correct": "Ewigkeit"
+	  },
+	  {
+		"id": 11,
+		"word": "taina",
+		"options": [
+		  "Sternzeichen",
+		  "Geheimnis",
+		  "Opfer",
+          "Gespenst"
+		],
+		"correct": "Geheimnis"
+	  },
+	  {
+		"id": 12,
+		"word": "jertfa",
+		"options": [
+		  "Zeichen",
+		  "Ewigkeit",
+		  "Opfer",
+          "Schwur"
+		],
+		"correct": "Opfer"
+	  },
+	  {
+		"id": 13,
+		"word": "legamant",
+		"options": [
+		  "Schwur",
+		  "Unendlichkeit",
+		  "Opfer",
+          "Kreuzung"
+		],
+		"correct": "Schwur"
+	  },
+	  {
+		"id": 14,
+		"word": "rascruce",
+		"options": [
+		  "Kreuzung",
+		  "Geheimnis",
+		  "Opfer",
+          "Sternzeichen"
+		],
+		"correct": "Kreuzung"
+	  },
+	  {
+		"id": 15,
+		"word": "zodie",
+		"options": [
+		  "Sternzeichen",
+		  "Kreuzung",
+		  "Schicksal",
+          "Opfer"
+		],
+		"correct": "Sternzeichen"
+	  },
+	  {
+		"id": 16,
+		"word": "semn",
+		"options": [
+		  "Schwur",
+		  "Geheimnis",
+		  "Ewigkeit",
+          "Zeichen"
+		],
+		"correct": "Zeichen"
+	  },
+	  {
+		"id": 17,
+		"word": "spaima",
+		"options": [
+		  "Schicksal",
+		  "Entsetzen",
+		  "Fluch",
+          "Ewigkeit"
+		],
+		"correct": "Entsetzen"
+	  },
+	  {
+		"id": 18,
+		"word": "infinit",
+		"options": [
+		  "Schicksal",
+		  "Gespenst",
+		  "Unendlichkeit",
+          "Zeichen"
+		],
+		"correct": "Unendlichkeit"
+	  },
+	  {
+		"id": 19,
+		"word": "destin",
+		"options": [
+		  "Abgrund",
+		  "Fluch",
+		  "Zauber",
+          "Schicksal"
+		],
+		"correct": "Schicksal"
+	  },
+	  {
+		"id": 20,
+		"word": "eres",
+		"options": [
+		  "Bestimmung",
+		  "Aberglaube",
+		  "Fluch",
+          "Zauberspruch"
+		],
+		"correct": "Aberglaube"
+	  }
+	]
+  }
+}

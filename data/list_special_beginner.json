@@ -1,0 +1,130 @@
+{
+  "special": {
+	"en": [
+	  {
+		"id": 1,
+		"sentence": "fortune favors the bold but time eventually catches up with every man."
+	  },
+	  {
+		"id": 2,
+		"sentence": "what is done cannot be undone when fate has already sealed the final act"
+	  },
+	  {
+		"id": 3,
+		"sentence": "the wise man gathers knowledge whilst the fool pursues shadows"
+	  },
+	  {
+		"id": 4,
+		"sentence": "no crown rests lightly upon the brow of a troubled king"
+	  },
+	  {
+		"id": 5,
+		"sentence": "beyond the hills of sorrow there lies a field of hope"
+	  },
+	  {
+		"id": 6,
+		"sentence": "many speak of honor yet few endure the price it demands"
+	  },
+	  {
+		"id": 7,
+		"sentence": "the sea remembers every vessel that dared challenge its wrath"
+	  },
+	  {
+		"id": 8,
+		"sentence": "the better part of valor is discretion for a brave man knows when to retreat"
+	  },
+	  {
+		"id": 9,
+		"sentence": "when the final bell doth ring all men stand equal"
+	  },
+	  {
+		"id": 10,
+		"sentence": "time grants wisdom to those patient enough to heed its lessons"
+	  }
+	],
+	"de": [
+	  {
+		"id": 1,
+		"sentence": "Das Glück begünstigt die Mutigen, aber die Zeit holt schließlich jeden Mann ein."
+	  },
+	  {
+		"id": 2,
+		"sentence": "Was getan ist, kann nicht ungeschehen gemacht werden, wenn das Schicksal bereits den letzten Akt besiegelt hat"
+	  },
+	  {
+		"id": 3,
+		"sentence": "Der weise Mann sammelt Wissen, während der Narr Schatten nachjagt"
+	  },
+	  {
+		"id": 4,
+		"sentence": "Keine Krone ruht leicht auf der Stirn eines besorgten Königs"
+	  },
+	  {
+		"id": 5,
+		"sentence": "Jenseits der Hügel des Kummers liegt ein Feld der Hoffnung"
+	  },
+	  {
+		"id": 6,
+		"sentence": "Viele sprechen von Ehre, doch wenige ertragen den Preis, den sie fordert"
+	  },
+	  {
+		"id": 7,
+		"sentence": "Das Meer erinnert sich an jedes Schiff, das es wagte, seinen Zorn herauszufordern"
+	  },
+	  {
+		"id": 8,
+		"sentence": "Der bessere Teil der Tapferkeit ist Vorsicht, denn ein tapferer Mann weiß, wann er sich zurückziehen muss"
+	  },
+	  {
+		"id": 9,
+		"sentence": "Wenn die letzte Glocke läutet, sind alle Menschen gleich"
+	  },
+	  {
+		"id": 10,
+		"sentence": "Die Zeit schenkt denen Weisheit, die geduldig genug sind, ihre Lehren zu beherzigen"
+	  }
+	],
+	"ru": [
+	  {
+		"id": 1,
+		"sentence": "Фортуна благоволит смелым, но время в конце концов настигает каждого человека."
+	  },
+	  {
+		"id": 2,
+		"sentence": "Что сделано, того не вернуть, когда судьба уже предрешила последний акт"
+	  },
+	  {
+		"id": 3,
+		"sentence": "Мудрый человек собирает знания, в то время как глупец гоняется за тенями"
+	  },
+	  {
+		"id": 4,
+		"sentence": "Ни одна корона не лежит легко на челе встревоженного короля"
+	  },
+	  {
+		"id": 5,
+		"sentence": "За холмами печали лежит поле надежды"
+	  },
+	  {
+		"id": 6,
+		"sentence": "Многие говорят о чести, но немногие выдерживают цену, которую она требует"
+	  },
+	  {
+		"id": 7,
+		"sentence": "Море помнит каждое судно, что осмелилось бросить вызов его гневу"
+	  },
+	  {
+		"id": 8,
+		"sentence": "Лучшая часть доблести — это осмотрительность, ибо храбрый человек знает, когда нужно отступить"
+	  },
+	  {
+		"id": 9,
+		"sentence": "Когда прозвенит последний колокол, все люди будут равны"
+	  },
+	  {
+		"id": 10,
+		"sentence": "Время дарует мудрость тем, кто достаточно терпелив, чтобы внимать его урокам"
+	  }
+	]
+  }
+}
