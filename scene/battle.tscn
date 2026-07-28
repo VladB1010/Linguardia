@@ -1,0 +1,526 @@
+[gd_scene format=3 uid="uid://o3xby1ngrb6q"]
+
+[ext_resource type="Theme" uid="uid://cusfe3un3i77t" path="res://Deftheme.tres" id="1_oxp8w"]
+[ext_resource type="Script" uid="uid://dlckam860o755" path="res://script/battle.gd" id="2_6t8i5"]
+[ext_resource type="PackedScene" uid="uid://cnemutka470uy" path="res://scene/window_def.tscn" id="2_7sfm4"]
+[ext_resource type="Texture2D" uid="uid://biq22pm1no6jd" path="res://assets/BG.png" id="3_lcjiy"]
+[ext_resource type="Script" uid="uid://dj70kkyqa0vos" path="res://script/menu.gd" id="4_0npn6"]
+[ext_resource type="PackedScene" uid="uid://gba6qedf1cjx" path="res://scene/player_button.tscn" id="4_dw4jg"]
+[ext_resource type="PackedScene" uid="uid://ci6hnn7riu6vx" path="res://scene/enemy_button.tscn" id="5_0npn6"]
+[ext_resource type="PackedScene" uid="uid://dymb6mymemqqq" path="res://scene/menu_cursor.tscn" id="7_0npn6"]
+[ext_resource type="PackedScene" uid="uid://wcno1u4osntq" path="res://scene/BattlePlayerBar.tscn" id="7_mhv3b"]
+[ext_resource type="PackedScene" uid="uid://d2w6nbbxapawg" path="res://scene/enemy_battle_player.tscn" id="8_v7t3w"]
+[ext_resource type="PackedScene" uid="uid://2u25wchn5aik" path="res://scene/down_cursor.tscn" id="10_ol6im"]
+[ext_resource type="PackedScene" uid="uid://m020f2ckcnks" path="res://scene/minigame.tscn" id="11_b1i6x"]
+[ext_resource type="PackedScene" uid="uid://hh80pg234uqq" path="res://scene/special.tscn" id="12_sl0w2"]
+[ext_resource type="Script" uid="uid://bag4l673e0li7" path="res://script/stop_button.gd" id="15_22sa7"]
+[ext_resource type="Script" uid="uid://celk50iihwu82" path="res://script/soundbutton.gd" id="15_ix8ov"]
+[ext_resource type="PackedScene" uid="uid://e78wm0eu5f4o" path="res://scene/healcursor.tscn" id="15_pihy1"]
+[ext_resource type="Texture2D" uid="uid://boqaf1vmx6vhm" path="res://assets/stop_button.png" id="16_22sa7"]
+[ext_resource type="Texture2D" uid="uid://bwdu3wfoutpkc" path="res://assets/sound_button.png" id="16_bx4lf"]
+[ext_resource type="PackedScene" uid="uid://4h7d50gwpawa" path="res://scene/defend_minigame.tscn" id="16_slotg"]
+[ext_resource type="Texture2D" uid="uid://j17i18jslmo0" path="res://assets/texture1.png" id="17_aacmo"]
+[ext_resource type="PackedScene" uid="uid://colh3sr8rk2od" path="res://scene/bliz.tscn" id="17_in21c"]
+[ext_resource type="AudioStream" uid="uid://c36ouqdkb3g3t" path="res://assets/Heroes/soundtrack2.mp3" id="18_aacmo"]
+[ext_resource type="Script" uid="uid://hjeolr8a5bi4" path="res://script/reload_button.gd" id="18_fljlq"]
+[ext_resource type="Script" uid="uid://bn4cx0sgyv14s" path="res://script/quit_button.gd" id="18_j128n"]
+[ext_resource type="Texture2D" uid="uid://cuhdrpllistg4" path="res://assets/reload_button.png" id="18_rggsl"]
+[ext_resource type="Texture2D" uid="uid://c23irra34dbbu" path="res://assets/back_button.png" id="19_nt5qs"]
+[ext_resource type="PackedScene" uid="uid://70k8isjngsk" path="res://scene/minigame_card.tscn" id="28_uwl2g"]
+[ext_resource type="PackedScene" uid="uid://cmpxys3bbs0fm" path="res://scene/bossminigame.tscn" id="99_bossmini"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_aacmo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rggsl"]
+atlas = ExtResource("16_22sa7")
+region = Rect2(80, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fljlq"]
+atlas = ExtResource("16_22sa7")
+region = Rect2(40, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s5g7e"]
+atlas = ExtResource("16_22sa7")
+region = Rect2(0, 0, 40, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rggsl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rggsl")
+}],
+"loop": true,
+"name": &"click",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fljlq")
+}],
+"loop": true,
+"name": &"hover",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s5g7e")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in21c"]
+atlas = ExtResource("18_rggsl")
+region = Rect2(0, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nt5qs"]
+atlas = ExtResource("18_rggsl")
+region = Rect2(40, 0, 40, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uwl2g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_in21c")
+}],
+"loop": true,
+"name": &"click",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nt5qs")
+}],
+"loop": true,
+"name": &"hover",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7t3w"]
+atlas = ExtResource("19_nt5qs")
+region = Rect2(40, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j128n"]
+atlas = ExtResource("19_nt5qs")
+region = Rect2(0, 0, 40, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v7t3w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v7t3w")
+}],
+"loop": true,
+"name": &"click",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j128n")
+}],
+"loop": true,
+"name": &"hover",
+"speed": 5.0
+}]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_j128n"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cm266"]
+atlas = ExtResource("16_bx4lf")
+region = Rect2(80, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8g3n"]
+atlas = ExtResource("16_bx4lf")
+region = Rect2(120, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w44g7"]
+atlas = ExtResource("16_bx4lf")
+region = Rect2(0, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iotk1"]
+atlas = ExtResource("16_bx4lf")
+region = Rect2(40, 0, 40, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nt5qs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cm266")
+}],
+"loop": true,
+"name": &"hover_mute",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g8g3n")
+}],
+"loop": true,
+"name": &"hover_unmute",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w44g7")
+}],
+"loop": true,
+"name": &"idle_mute",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iotk1")
+}],
+"loop": true,
+"name": &"idle_unmute",
+"speed": 5.0
+}]
+
+[node name="Battle" type="Control" unique_id=1397854452]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_oxp8w")
+script = ExtResource("2_6t8i5")
+
+[node name="Bg" type="Sprite2D" parent="." unique_id=1337895820]
+position = Vector2(640.5, 363)
+scale = Vector2(0.77335745, 0.7679325)
+texture = ExtResource("3_lcjiy")
+
+[node name="Enemies" type="Control" parent="." unique_id=433614426]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_0npn6")
+metadata/_edit_lock_ = true
+
+[node name="EnemyButton" parent="Enemies" unique_id=1864202961 instance=ExtResource("5_0npn6")]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 156.0
+offset_right = 370.0
+offset_bottom = 344.0
+
+[node name="EnemyButton2" parent="Enemies" unique_id=317076496 instance=ExtResource("5_0npn6")]
+layout_mode = 0
+offset_left = 402.0
+offset_top = 310.0
+offset_right = 610.0
+offset_bottom = 498.0
+
+[node name="EnemyButton3" parent="Enemies" unique_id=1393711068 instance=ExtResource("5_0npn6")]
+layout_mode = 0
+offset_left = 411.0
+offset_top = 144.0
+offset_right = 619.0
+offset_bottom = 332.0
+
+[node name="EnemyButton4" parent="Enemies" unique_id=888119208 instance=ExtResource("5_0npn6")]
+layout_mode = 0
+offset_left = 147.0
+offset_top = 325.0
+offset_right = 355.0
+offset_bottom = 513.0
+
+[node name="Players" type="Control" parent="." unique_id=1529791371]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_0npn6")
+metadata/_edit_lock_ = true
+
+[node name="PlayerButton" parent="Players" unique_id=1096906081 instance=ExtResource("4_dw4jg")]
+layout_mode = 0
+offset_left = 745.0
+offset_top = 346.0
+offset_right = 953.0
+offset_bottom = 534.0
+
+[node name="PlayerButton2" parent="Players" unique_id=145306708 instance=ExtResource("4_dw4jg")]
+layout_mode = 0
+offset_left = 1052.0
+offset_top = 153.0
+offset_right = 1260.0
+offset_bottom = 341.0
+
+[node name="PlayerButton3" parent="Players" unique_id=1844484286 instance=ExtResource("4_dw4jg")]
+layout_mode = 0
+offset_left = 843.0
+offset_top = 166.0
+offset_right = 1051.0
+offset_bottom = 354.0
+
+[node name="PlayerButton4" parent="Players" unique_id=684550809 instance=ExtResource("4_dw4jg")]
+layout_mode = 0
+offset_left = 1021.0
+offset_top = 347.0
+offset_right = 1229.0
+offset_bottom = 535.0
+
+[node name="GUIMargin" type="MarginContainer" parent="." unique_id=1299303401]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_top = 6.0
+offset_right = -2.0
+offset_bottom = 6.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="Bottom" type="HBoxContainer" parent="GUIMargin" unique_id=824707388]
+custom_minimum_size = Vector2(100, 165)
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("1_oxp8w")
+theme_override_constants/separation = 0
+alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Enemies" parent="GUIMargin/Bottom" unique_id=1333018828 instance=ExtResource("2_7sfm4")]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="GUIMargin/Bottom/Enemies" unique_id=1371477316]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUIMargin/Bottom/Enemies/MarginContainer" unique_id=504058889]
+layout_mode = 2
+
+[node name="EnemyInfo" parent="GUIMargin/Bottom/Enemies/MarginContainer/VBoxContainer" unique_id=954769788 instance=ExtResource("8_v7t3w")]
+layout_mode = 2
+
+[node name="EnemyInfo2" parent="GUIMargin/Bottom/Enemies/MarginContainer/VBoxContainer" unique_id=977512801 instance=ExtResource("8_v7t3w")]
+layout_mode = 2
+
+[node name="EnemyInfo3" parent="GUIMargin/Bottom/Enemies/MarginContainer/VBoxContainer" unique_id=1800235615 instance=ExtResource("8_v7t3w")]
+layout_mode = 2
+
+[node name="EnemyInfo4" parent="GUIMargin/Bottom/Enemies/MarginContainer/VBoxContainer" unique_id=680926770 instance=ExtResource("8_v7t3w")]
+layout_mode = 2
+
+[node name="Players" parent="GUIMargin/Bottom" unique_id=1003285235 instance=ExtResource("2_7sfm4")]
+custom_minimum_size = Vector2(200, 48)
+layout_mode = 2
+size_flags_stretch_ratio = 1.5
+
+[node name="MarginContainer" type="MarginContainer" parent="GUIMargin/Bottom/Players" unique_id=8696118]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerInfos" type="VBoxContainer" parent="GUIMargin/Bottom/Players/MarginContainer" unique_id=1897830070]
+layout_mode = 2
+alignment = 1
+
+[node name="PlayerInfoBar" parent="GUIMargin/Bottom/Players/MarginContainer/PlayerInfos" unique_id=243879666 instance=ExtResource("7_mhv3b")]
+layout_mode = 2
+
+[node name="PlayerInfoBar2" parent="GUIMargin/Bottom/Players/MarginContainer/PlayerInfos" unique_id=1910622171 instance=ExtResource("7_mhv3b")]
+layout_mode = 2
+
+[node name="PlayerInfoBar3" parent="GUIMargin/Bottom/Players/MarginContainer/PlayerInfos" unique_id=1008722778 instance=ExtResource("7_mhv3b")]
+layout_mode = 2
+
+[node name="PlayerInfoBar4" parent="GUIMargin/Bottom/Players/MarginContainer/PlayerInfos" unique_id=1008219454 instance=ExtResource("7_mhv3b")]
+layout_mode = 2
+
+[node name="Options" parent="." unique_id=1776977098 instance=ExtResource("2_7sfm4")]
+custom_minimum_size = Vector2(200, 150)
+layout_mode = 0
+offset_left = 449.0
+offset_top = 536.0
+offset_right = 649.0
+offset_bottom = 686.0
+size_flags_horizontal = 0
+size_flags_vertical = 8
+size_flags_stretch_ratio = 2.0
+
+[node name="Options" type="VBoxContainer" parent="Options" unique_id=2110620996]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_0npn6")
+
+[node name="Button" type="Button" parent="Options/Options" unique_id=886520785]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+focus_neighbor_bottom = NodePath("../Button2")
+theme_override_font_sizes/font_size = 30
+text = "Attack"
+
+[node name="Button2" type="Button" parent="Options/Options" unique_id=895771401]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+focus_neighbor_top = NodePath("../Button")
+focus_neighbor_bottom = NodePath("../Button3")
+text = "Defend"
+
+[node name="Button3" type="Button" parent="Options/Options" unique_id=1827042104]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+focus_neighbor_top = NodePath("../Button2")
+text = "Special"
+
+[node name="MenuCursor" parent="." unique_id=1712072041 instance=ExtResource("7_0npn6")]
+layout_mode = 1
+offset_left = 341.0
+offset_top = 527.0
+offset_right = -799.0
+offset_bottom = -130.0
+
+[node name="DownCursor" parent="." unique_id=664499301 instance=ExtResource("10_ol6im")]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 0
+offset_left = 795.0
+offset_top = 262.0
+offset_right = 861.0
+offset_bottom = 346.0
+
+[node name="HealCursor" parent="." unique_id=966691516 instance=ExtResource("15_pihy1")]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 1
+offset_left = 910.0
+offset_top = 102.0
+offset_right = -310.0
+offset_bottom = -558.0
+
+[node name="Minigame" parent="." unique_id=253754225 instance=ExtResource("11_b1i6x")]
+layout_mode = 1
+
+[node name="SpecialMinigame" parent="." unique_id=14710411 instance=ExtResource("12_sl0w2")]
+layout_mode = 1
+
+[node name="DefendMinigame" parent="." unique_id=517399309 instance=ExtResource("16_slotg")]
+layout_mode = 1
+
+[node name="Bossminigame" parent="." unique_id=600700800 instance=ExtResource("99_bossmini")]
+layout_mode = 1
+
+[node name="Bliz" parent="." unique_id=729922359 instance=ExtResource("17_in21c")]
+position = Vector2(26, -151)
+
+[node name="TextureButton2" type="TextureButton" parent="." unique_id=415204130]
+layout_mode = 0
+offset_left = 1174.0
+offset_top = -9.0
+offset_right = 1274.0
+offset_bottom = 118.0
+focus_mode = 0
+texture_normal = SubResource("CompressedTexture2D_aacmo")
+script = ExtResource("15_22sa7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TextureButton2" unique_id=630932276]
+position = Vector2(44.00003, 66)
+scale = Vector2(2.4074757, 2.2005439)
+sprite_frames = SubResource("SpriteFrames_rggsl")
+animation = &"idle"
+
+[node name="NinePatchRect" type="NinePatchRect" parent="TextureButton2" unique_id=930363286]
+layout_mode = 0
+offset_left = -840.0
+offset_top = 175.0
+offset_right = -210.0
+offset_bottom = 366.0
+size_flags_horizontal = 3
+texture = ExtResource("17_aacmo")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="TextureButton3" type="TextureButton" parent="TextureButton2/NinePatchRect" unique_id=1213528093]
+layout_mode = 0
+offset_left = 254.0
+offset_top = 86.0
+offset_right = 354.0
+offset_bottom = 173.0
+texture_normal = SubResource("CompressedTexture2D_aacmo")
+script = ExtResource("18_fljlq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TextureButton2/NinePatchRect/TextureButton3" unique_id=835186898]
+position = Vector2(48, 42.000015)
+scale = Vector2(2.4074757, 2.2005439)
+sprite_frames = SubResource("SpriteFrames_uwl2g")
+animation = &"click"
+
+[node name="Label" type="Label" parent="TextureButton2/NinePatchRect" unique_id=2136453104]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 21.0
+offset_right = 545.0
+offset_bottom = 80.0
+text = "Niciodata nu e 
+tarziu sa te uiti in dictionar"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton2" type="TextureButton" parent="TextureButton2/NinePatchRect" unique_id=1373999904]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 103.0
+offset_right = 236.0
+offset_bottom = 190.0
+texture_normal = SubResource("CompressedTexture2D_aacmo")
+script = ExtResource("18_j128n")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TextureButton2/NinePatchRect/TextureButton2" unique_id=859556136]
+position = Vector2(59, 27.999987)
+scale = Vector2(2.4074757, 2.2005439)
+sprite_frames = SubResource("SpriteFrames_v7t3w")
+animation = &"hover"
+
+[node name="TextureButton4" type="TextureButton" parent="TextureButton2/NinePatchRect" unique_id=738950273]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 64.0
+offset_right = 460.0
+offset_bottom = 191.0
+focus_mode = 1
+texture_normal = SubResource("CompressedTexture2D_j128n")
+script = ExtResource("15_ix8ov")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TextureButton2/NinePatchRect/TextureButton4" unique_id=519800160]
+position = Vector2(49, 65)
+scale = Vector2(2.4074757, 2.2005439)
+sprite_frames = SubResource("SpriteFrames_nt5qs")
+animation = &"hover_mute"
+metadata/_edit_lock_ = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="TextureButton2/NinePatchRect/TextureButton4" unique_id=909779572]
+stream = ExtResource("18_aacmo")
+
+[node name="MinigameCard" parent="." unique_id=1074377210 instance=ExtResource("28_uwl2g")]
+layout_mode = 1
+
+[connection signal="button_pressed" from="Enemies" to="." method="_on_enemies_button_pressed"]
+[connection signal="button_pressed" from="Players" to="." method="_on_players_button_pressed"]
+[connection signal="button_pressed" from="Options/Options" to="." method="_on_options_button_pressed"]

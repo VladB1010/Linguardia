@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://d2w6nbbxapawg"]
+
+[ext_resource type="PackedScene" uid="uid://dx3vh76dv1pp3" path="res://scene/at_bar.tscn" id="1_6jo34"]
+[ext_resource type="Script" uid="uid://cqtsbl0sr7ve0" path="res://script/enemy_battle_player.gd" id="2_ebp01"]
+
+[sub_resource type="Animation" id="Animation_4y4om"]
+resource_name = "Highlight"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0.5882353)]
+}
+
+[sub_resource type="Animation" id="Animation_l5rnj"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_g4ont"]
+_data = {
+&"Highlight": SubResource("Animation_4y4om"),
+&"RESET": SubResource("Animation_l5rnj")
+}
+
+[node name="EnemyBattlePlayer" type="HBoxContainer" unique_id=977512801]
+script = ExtResource("2_ebp01")
+
+[node name="Name" type="Label" parent="." unique_id=1809963241]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "HERO"
+
+[node name="Control" type="Control" parent="." unique_id=2091778165]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Mana" type="Label" parent="." unique_id=283076133]
+visible = false
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "999"
+horizontal_alignment = 2
+
+[node name="Health" type="Label" parent="." unique_id=1875930953]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "9999"
+horizontal_alignment = 2
+
+[node name="ATBar" parent="." unique_id=1556304889 instance=ExtResource("1_6jo34")]
+visible = false
+layout_mode = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=2072539619]
+libraries/ = SubResource("AnimationLibrary_g4ont")
+
+[connection signal="filled" from="ATBar" to="." method="_on_at_bar_filled"]

@@ -1,0 +1,161 @@
+[gd_scene format=3 uid="uid://70k8isjngsk"]
+
+[ext_resource type="Theme" uid="uid://cusfe3un3i77t" path="res://Deftheme.tres" id="1_pvoeu"]
+[ext_resource type="Script" uid="uid://bo444uhl5ii1f" path="res://script/minigame_card.gd" id="2_gegjb"]
+[ext_resource type="Texture2D" uid="uid://j17i18jslmo0" path="res://assets/texture1.png" id="2_q647u"]
+[ext_resource type="Texture2D" uid="uid://dmljds8aloeym" path="res://assets/cards.png" id="3_sb8wc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88wba"]
+atlas = ExtResource("3_sb8wc")
+region = Rect2(220, 0, 55, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhhpg"]
+atlas = ExtResource("3_sb8wc")
+region = Rect2(0, 0, 55, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_elvbt"]
+atlas = ExtResource("3_sb8wc")
+region = Rect2(165, 0, 55, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m7pl4"]
+atlas = ExtResource("3_sb8wc")
+region = Rect2(110, 0, 55, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e3ir6"]
+atlas = ExtResource("3_sb8wc")
+region = Rect2(55, 0, 55, 77)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kjr3b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88wba")
+}],
+"loop": true,
+"name": &"card",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhhpg")
+}],
+"loop": true,
+"name": &"jalet",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_elvbt")
+}],
+"loop": true,
+"name": &"joker",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m7pl4")
+}],
+"loop": true,
+"name": &"king",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e3ir6")
+}],
+"loop": true,
+"name": &"queen",
+"speed": 5.0
+}]
+
+[node name="MinigameCard" type="Control" unique_id=253754225]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_pvoeu")
+script = ExtResource("2_gegjb")
+
+[node name="Timer" type="Timer" parent="." unique_id=138326455]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2109812469]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -421.0
+offset_top = 382.0
+offset_right = 379.0
+offset_bottom = 632.0
+grow_horizontal = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="VBoxContainer" unique_id=301654097]
+custom_minimum_size = Vector2(800, 250)
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("2_q647u")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+metadata/_edit_lock_ = true
+
+[node name="Label" type="Label" parent="VBoxContainer/NinePatchRect" unique_id=1514798119]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "when the night was cold and the sky was blue she
+went ouside to call the moon..."
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Button3" type="Button" parent="." unique_id=260469263]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 20.0
+offset_right = 391.0
+offset_bottom = 290.0
+text = "A. Answer"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button3" unique_id=230579064]
+position = Vector2(118.00006, 174)
+scale = Vector2(4.518182, 4.672078)
+sprite_frames = SubResource("SpriteFrames_kjr3b")
+animation = &"joker"
+metadata/_edit_lock_ = true
+
+[node name="Button4" type="Button" parent="." unique_id=1176848286]
+layout_mode = 0
+offset_left = 485.0
+offset_top = 20.0
+offset_right = 722.0
+offset_bottom = 290.0
+text = "A. Answer"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button4" unique_id=1679378670]
+position = Vector2(118.00006, 174)
+scale = Vector2(4.518182, 4.672078)
+sprite_frames = SubResource("SpriteFrames_kjr3b")
+animation = &"king"
+metadata/_edit_lock_ = true
+
+[node name="Button2" type="Button" parent="." unique_id=434580453]
+layout_mode = 0
+offset_left = 807.0
+offset_top = 20.0
+offset_right = 1044.0
+offset_bottom = 290.0
+text = "A. Answer"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button2" unique_id=865737597]
+position = Vector2(118.00006, 174)
+scale = Vector2(4.518182, 4.672078)
+sprite_frames = SubResource("SpriteFrames_kjr3b")
+animation = &"queen"
+metadata/_edit_lock_ = true

@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://dd1enj348mfc5"]
+
+[ext_resource type="Script" uid="uid://dflnymgorh0ir" path="res://script/import.gd" id="1_pe7km"]
+[ext_resource type="Texture2D" uid="uid://j17i18jslmo0" path="res://assets/texture1.png" id="2_42icx"]
+
+[node name="Import" type="TextureButton" unique_id=1425001552]
+offset_left = 1.0
+offset_top = 50.0
+offset_right = 386.0
+offset_bottom = 95.0
+script = ExtResource("1_pe7km")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=268390246]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 29.0
+offset_right = 893.0
+offset_bottom = 175.0
+size_flags_horizontal = 3
+texture = ExtResource("2_42icx")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="Label" type="Label" parent="NinePatchRect" unique_id=546341427]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 25
+text = "       Poti aici sa pui 
+       vocabularul tau "
+horizontal_alignment = 1
+vertical_alignment = 1

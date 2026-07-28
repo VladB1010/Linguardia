@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://ci6hnn7riu6vx"]
+
+[ext_resource type="Texture2D" uid="uid://bqruvxhk82jkf" path="res://assets/Enemies/boar.png" id="1_mttqm"]
+[ext_resource type="Script" uid="uid://b0bfea1orhmde" path="res://script/enemy_button.gd" id="2_qi2p4"]
+[ext_resource type="PackedScene" uid="uid://dx3vh76dv1pp3" path="res://scene/at_bar.tscn" id="3_iifgy"]
+
+[node name="EnemyButton" type="TextureButton" unique_id=1864202961]
+offset_left = -14.0
+offset_top = 361.0
+offset_right = 194.0
+offset_bottom = 549.0
+texture_normal = ExtResource("1_mttqm")
+script = ExtResource("2_qi2p4")
+
+[node name="ATBar" parent="." unique_id=1556304889 instance=ExtResource("3_iifgy")]
+visible = false
+layout_mode = 0
+offset_left = 60.0
+offset_top = 195.0
+offset_right = 139.0
+offset_bottom = 223.0
+
+[node name="NameLabel" type="Label" parent="." unique_id=304184320]
+visible = false
+layout_mode = 0
+offset_left = 36.0
+offset_top = -18.0
+offset_right = 113.0
+offset_bottom = 15.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=338366085]
+position = Vector2(88, 97)
+
+[node name="SFX" type="AudioStreamPlayer2D" parent="." unique_id=1314299754]
+
+[connection signal="filled" from="ATBar" to="." method="_on_at_bar_filled"]

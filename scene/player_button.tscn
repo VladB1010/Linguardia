@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://gba6qedf1cjx"]
+
+[ext_resource type="Texture2D" uid="uid://y6gb1ci81274" path="res://assets/Heroes/chmap1.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://dpcftfkd7uyik" path="res://script/player_button.gd" id="2_5r5wu"]
+
+[node name="Player" type="TextureButton" unique_id=1096906081]
+offset_left = 732.0
+offset_top = 290.0
+offset_right = 940.0
+offset_bottom = 478.0
+texture_normal = ExtResource("1_4flbx")
+script = ExtResource("2_5r5wu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=672528935]
+position = Vector2(96, 100)

@@ -1,0 +1,117 @@
+[gd_scene format=3 uid="uid://cmpxys3bbs0fm"]
+
+[ext_resource type="Theme" uid="uid://cusfe3un3i77t" path="res://Deftheme.tres" id="1_8h236"]
+[ext_resource type="Texture2D" uid="uid://j17i18jslmo0" path="res://assets/texture1.png" id="3_4cx7k"]
+[ext_resource type="Script" uid="uid://cpcrefejljgsa" path="res://script/bossminigame.gd" id="99_bossscript"]
+
+[node name="Bossminigame" type="Control" unique_id=253754225]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_8h236")
+script = ExtResource("99_bossscript")
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="." unique_id=1893461354]
+layout_mode = 0
+offset_left = 438.0
+offset_top = -92.0
+offset_right = 764.0
+offset_bottom = -14.0
+size_flags_horizontal = 3
+texture = ExtResource("3_4cx7k")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="Button" type="Button" parent="NinePatchRect2" unique_id=2018171776]
+layout_mode = 0
+offset_left = 79.0
+offset_top = 21.0
+offset_right = 225.0
+offset_bottom = 49.0
+text = "A. Answer"
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2109812469]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -453.0
+offset_top = 14.0
+offset_right = 347.0
+offset_bottom = 181.0
+grow_horizontal = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="VBoxContainer" unique_id=301654097]
+custom_minimum_size = Vector2(800, 150)
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("3_4cx7k")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+metadata/_edit_lock_ = true
+
+[node name="Label" type="Label" parent="VBoxContainer/NinePatchRect" unique_id=1514798119]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Word"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Timer" type="Timer" parent="." unique_id=138326455]
+
+[node name="NinePatchRect3" type="NinePatchRect" parent="." unique_id=1521680774]
+layout_mode = 0
+offset_left = 80.0
+offset_top = -92.0
+offset_right = 406.0
+offset_bottom = -14.0
+size_flags_horizontal = 3
+texture = ExtResource("3_4cx7k")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="Button" type="Button" parent="NinePatchRect3" unique_id=250989401]
+layout_mode = 0
+offset_left = 79.0
+offset_top = 21.0
+offset_right = 225.0
+offset_bottom = 49.0
+text = "A. Answer"
+metadata/_edit_lock_ = true
+
+[node name="NinePatchRect4" type="NinePatchRect" parent="." unique_id=1506924397]
+layout_mode = 0
+offset_left = 800.0
+offset_top = -92.0
+offset_right = 1126.0
+offset_bottom = -14.0
+size_flags_horizontal = 3
+texture = ExtResource("3_4cx7k")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="Button" type="Button" parent="NinePatchRect4" unique_id=117177925]
+layout_mode = 0
+offset_left = 79.0
+offset_top = 21.0
+offset_right = 225.0
+offset_bottom = 49.0
+text = "A. Answer"
+metadata/_edit_lock_ = true

@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bgwvtha7pvdc7"]
+
+[ext_resource type="Theme" uid="uid://cusfe3un3i77t" path="res://Deftheme.tres" id="1_jrdlj"]
+[ext_resource type="FontFile" uid="uid://cy5gagw3pydlo" path="res://assets/upheavtt.ttf" id="2_ksla5"]
+[ext_resource type="Script" uid="uid://dmc2x3fldlk3a" path="res://script/hit_text.gd" id="3_j6n5r"]
+
+[node name="HitText" type="Label" unique_id=417655137]
+custom_minimum_size = Vector2(60, 60)
+offset_left = 97.0
+offset_top = 74.0
+offset_right = 157.0
+offset_bottom = 135.0
+theme = ExtResource("1_jrdlj")
+theme_override_fonts/font = ExtResource("2_ksla5")
+theme_override_font_sizes/font_size = 32
+text = "000
+"
+script = ExtResource("3_j6n5r")
+
+[node name="Free" type="Timer" parent="." unique_id=884095325]
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Free" to="." method="_on_free_timeout"]
